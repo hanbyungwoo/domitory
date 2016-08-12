@@ -9,18 +9,12 @@
     tools:context=".MainActivity">
 
 
-    <RelativeLayout
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mainActivity_toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <android.support.design.widget.TabLayout
-            android:id="@+id/tabs"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#ffffff" >
-
-        </android.support.design.widget.TabLayout>
-
+        android:layout_height="49dp"
+        android:contentInsetStart="0dp"
+        app:contentInsetStart="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -51,7 +45,7 @@
                 android:layout_weight="1"/>
         </LinearLayout>
 
-    </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
 
     <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"

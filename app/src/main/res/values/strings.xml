@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Domitory</string>
+
+
+    <!-- 메뉴 tab -->
+    <string name="title_section1">경기도장학관</string>
+    <string name="title_section2">공지 사항</string>
+    <string name="title_section3">질문 하기</string>
+
 </resources>
